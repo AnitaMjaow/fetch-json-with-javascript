@@ -1,0 +1,72 @@
+/* || general styles */
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(230, 200, 222);
+}
+
+body {
+	background: url('bg.png');
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+h1,
+h2 {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+/* header styles */
+
+h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+header {
+	background: rgb(189, 51, 106);
+	border-radius: 20px;
+	margin: 20px;
+	text-align: center;
+	box-shadow: inset 0 10px 10px #8c1049;
+}
+
+header p {
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* section styles */
+
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+section div {
+	background: rgb(189, 51, 106);
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: inset 0 10px 10px #8c1049;
+}
+
+section p {
+	margin: 5px 0;
+}
+
+section ul {
+	margin-top: 0;
+}
+
+footer {
+	background: rgb(189, 51, 106);
+	padding: 20px;
+	box-shadow: inset 0 10px 10px #8c1049;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
