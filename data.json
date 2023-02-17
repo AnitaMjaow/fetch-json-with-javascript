@@ -1,0 +1,38 @@
+{
+	"author": "https://github.com/AnitaMjaow",
+	"discord": "Anita Olsson#4638",
+	"headerTitle": "Fetch JSON with JavaScript",
+	"headerSubTitle": "This is an example of how to retrieve data from a JSON file with the help of JavaScript.",
+	"articles": [
+		{
+			"name": "Sebastian Morales",
+			"age": 35,
+			"city": "Stockholm",
+			"interests": [
+				"Knitting beanies.",
+				"Webdevelopment.",
+				"Going out with my dog."
+			]
+		},
+		{
+			"name": "Justine Allen",
+			"age": 39,
+			"city": "London",
+			"interests": [
+				"Long walks in the park.",
+				"Painting porcelain.",
+				"Watching horror movies."
+			]
+		},
+		{
+			"name": "Peter Griffin",
+			"age": 49,
+			"city": "Vancouver",
+			"interests": [
+				"Hiking in the woods.",
+				"Fishing.",
+				"Baking bread."
+			]
+		}
+	]
+}
